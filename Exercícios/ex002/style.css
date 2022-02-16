@@ -17,7 +17,7 @@ body{
 nav{
     background-color: #0F9409;
     margin: 0px;
-    padding: 10px;
+    padding: 15px;
     text-align: start;
 }
 
@@ -26,6 +26,7 @@ nav > a{
    color: white;
    font-weight: bold;
    margin-right: 50px;
+   margin-left: 60px;
 }
 
 nav > a:hover{
@@ -48,8 +49,18 @@ header > h1{
     padding: 70px;
 }
 
-img{
+div#imagi{
+    border: 1px solid black;
     border-radius: 20px;
+    min-width: 300px;
+    width: 480px;
+    height: 480px;
+    width: 100%;
+}
+
+div#imagi{
+    background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/11/e6/80/f0/catarata-arco-iris.jpg');
+    background-size: cover;
 }
 
 main{
@@ -58,19 +69,30 @@ main{
     max-width: 800px;
     min-width: 200px;
 }
+
+div.pequena{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+}
  
-main > img.pequena{
-    width: 100%;
-    padding: 10px;
+main > div.pequena{
+    margin-left: 540px;
+    margin-top: 10px;
 }
 
 main > h2{
     text-decoration: none;
     color: #110847
 }
+
 main p{
     line-height: 1.9em;
     margin-left: 80px;
+    margin-right: 120px;
+    text-align: justify;
 }
 
 article{
@@ -131,6 +153,34 @@ article > p.comentarios3{
     padding: 20px;
     margin: 20px;
     border-radius: 5px;
+}
+
+div.fotos{
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+}
+
+body > div{
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+div#fot1{
+    background-image: url('https://media.gettyimages.com/photos/sunlight-shining-through-trees-on-river-in-amazon-rainforest-picture-id185227514?s=612x612');
+    background-size: cover;
+}
+div#fot2{
+    background-image: url('https://cdn.w600.comps.canstockphoto.com.br/fundo-natureza-foto_csp20368210.jpg');
+    background-size: cover;
+}
+div#fot3{
+    background-image: url('https://media.istockphoto.com/photos/natureza-picture-id1365836886?b=1&k=20&m=1365836886&s=170667a&w=0&h=MquB5wW8VMr0Akbp8y4H1ckxfI85_e-ltTOx3LLsDgM=');
+    background-size: cover;
 }
 
 footer{

@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body{
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background-color: rgb(13, 13, 112);
+    margin: 0px;
+    padding: 0px;
+}
+
+header > h1{
+    text-decoration: none;
+    color: green;
+}
+
+div#principal{
+    background-color: aqua;
+    border: 1px solid black;
+    
+}
+
+footer{
+    background-color: blue;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+footer > p{
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+    padding-top: 90px;
+    padding-bottom: 5px;
+    font-size: 1.vmax;
+    
+}
