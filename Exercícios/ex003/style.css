@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body{
-    background-color: aliceblue;
+    background-color: rgb(99, 164, 221);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -18,19 +18,79 @@ header{
 
 header > h1{
     text-decoration: none;
-    color: green;
+    color: rgb(59, 226, 59);
+    padding: 45px;
+    text-align: center;
 }
 
-div#principal{
-    background-color: aqua;
-    border: 1px solid black;
-    
+.foto1{
+    background-color: blueviolet;
+    border-radius: 20px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    width: 600px;
+    height: 400px;
 }
+
+div#fotomaior{
+    background-image:  url('https://media-cdn.tripadvisor.com/media/photo-s/11/e6/80/f0/catarata-arco-iris.jpg');
+    background-size: cover;
+}
+
+.foto2, .foto3{
+    width: 420px;
+    height: 240px;
+    left: 800px;
+    bottom: 390px;
+}
+
+.foto2{
+    background-color: blue;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.foto3{
+    background-color: black;
+    position: relative;
+}
+
+div.foto{
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 100px;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    bottom: 460px;
+    left: 20px;
+}
+
+div#perfil1{
+    background-image: url('https://media.gettyimages.com/photos/woman-holding-mirror-against-sky-picture-id1144742802?s=612x612');
+    background-size: cover;
+}
+ p#descricao{
+    line-height: 1.9em;
+    text-align: justify;
+    text-decoration: none;
+    color: white;
+}
+
+p#descricao{
+    position: relative;
+    bottom: 520px;
+    left: 95px;
+    margin-right: 35px;
+}
+
 
 footer{
     background-color: blue;
-    margin-top: 0px;
+    margin: 0px;
     padding: 0px;
+
 }
 
 footer > p{
