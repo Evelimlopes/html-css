@@ -56,6 +56,7 @@ div#imagi{
     width: 480px;
     height: 480px;
     width: 100%;
+    margin-top: 10px;
 }
 
 div#imagi{
@@ -70,22 +71,34 @@ main{
     min-width: 200px;
 }
 
-div.pequena{
+#Pfc1{
     border: 1px solid black;
     border-radius: 10px;
     background-color: white;
-    width: 300px;
+    width: 400px;
     height: 300px;
+    margin-left: 1025px;
+    margin-top: -840px;
+    background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/11/e6/80/f0/catarata-arco-iris.jpg');
+    background-size: cover;
 }
  
-main > div.pequena{
-    margin-left: 540px;
-    margin-top: 10px;
+#Pfc2{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    margin-left: 1025px;
+    margin-top: -30px;
+    background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/11/e6/80/f0/catarata-arco-iris.jpg');
+    background-size: cover;
 }
 
 main > h2{
     text-decoration: none;
-    color: #110847
+    color: #110847;
+    margin-top: 10px;
 }
 
 main p{
@@ -95,9 +108,13 @@ main p{
     text-align: justify;
 }
 
-article{
+#comen{
     margin: 20px;
+    margin-top: 220px;
+}
 
+article > .nomes{
+    margin-left: 20px;
 }
 article > p#comentario{
     background-color: #ffffff;
@@ -179,6 +196,18 @@ div#fot2{
     background-size: cover;
 }
 div#fot3{
+    background-image: url('https://media.istockphoto.com/photos/natureza-picture-id1365836886?b=1&k=20&m=1365836886&s=170667a&w=0&h=MquB5wW8VMr0Akbp8y4H1ckxfI85_e-ltTOx3LLsDgM=');
+    background-size: cover;
+}
+div#fot4{
+    background-image: url('https://media.istockphoto.com/photos/natureza-picture-id1365836886?b=1&k=20&m=1365836886&s=170667a&w=0&h=MquB5wW8VMr0Akbp8y4H1ckxfI85_e-ltTOx3LLsDgM=');
+    background-size: cover;
+}
+div#fot5{
+    background-image: url('https://media.istockphoto.com/photos/natureza-picture-id1365836886?b=1&k=20&m=1365836886&s=170667a&w=0&h=MquB5wW8VMr0Akbp8y4H1ckxfI85_e-ltTOx3LLsDgM=');
+    background-size: cover;
+}
+div#fot6{
     background-image: url('https://media.istockphoto.com/photos/natureza-picture-id1365836886?b=1&k=20&m=1365836886&s=170667a&w=0&h=MquB5wW8VMr0Akbp8y4H1ckxfI85_e-ltTOx3LLsDgM=');
     background-size: cover;
 }

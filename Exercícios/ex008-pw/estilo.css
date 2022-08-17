@@ -1,0 +1,94 @@
+       * {
+         margin:  0;
+         border:  0;
+         padding:  0;
+         }
+         body{
+            background-color: aquamarine;
+         }
+
+      html {
+
+           font-size: 62.5%;
+
+           }
+
+   	   header {
+           background-color: rgba(70,130,180) ;
+           color:  rgba(255, 255, 255);
+           font-family: script, arial;
+           padding-left: 2%;
+           padding-top: 2%;
+           padding-bottom: 2%;
+           font-size: 1.6rem;
+
+
+   	        	}
+               #s2{
+                  background-color: white;
+               }
+               #s3{
+                  background-color: white;
+               }
+
+         section {
+            font-family: arial;
+            font-size: 16 px;
+            text-align: justify;
+            box-shadow: 0.5px 0.5px 1px #00008B;
+            width: 90%;
+            margin:  0 auto;
+            padding: 1%;
+            box-shadow: 0.5px 0.5px 5px #000;
+            font-size: 1.6rem;
+            position: relative;
+
+
+         }
+
+         footer {
+           background-color: rgba(70,130,180) ;
+           color:  rgba(255, 255, 255, 1.0);
+           font-family: script, arial;
+           padding:  2%;
+          ;
+           text-align: center;
+           font-size: 1.6rem;
+
+
+
+           } 
+           H3 {
+            text-shadow: 2px 2px #000;
+            font-size:  2rem;
+            }  
+
+             H4 {
+            text-shadow: 2px 2px #000;
+            font-size:  1.5rem;
+            } 
+             p {
+            
+                font-size:  1.6rem;
+                text-align: justify;
+                font-family: arial;
+
+            } 
+           
+            #s1 {
+                    background-color: white;
+                    text-align: center;
+                       } 
+          H1 {
+             text-shadow: 1px 1px 3px #000;
+             font-size:  3rem;          
+             text-align: center;
+            } 
+         .p1{
+            text-align: right;
+            margin-bottom: 3px;
+            margin-top: -96px;
+            margin-right: 10px;
+            
+         }
+
