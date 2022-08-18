@@ -46,7 +46,18 @@ header > h1{
     color: #0F9409;
     text-align: center;
     text-shadow: 2px 3px 4px black;
-    padding: 70px;
+    padding-top: 10px;
+    padding-bottom: 70px;
+}
+#op{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+#logo{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 0%;
+    text-shadow: 2px 3px 4px black;
 }
 
 div#imagi{
@@ -57,9 +68,6 @@ div#imagi{
     height: 480px;
     width: 100%;
     margin-top: 10px;
-}
-
-div#imagi{
     background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/11/e6/80/f0/catarata-arco-iris.jpg');
     background-size: cover;
 }
@@ -118,15 +126,13 @@ article > .nomes{
 }
 article > p#comentario{
     background-color: #ffffff;
-    padding: 50px;
-    margin: 40px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    padding: 20px;
+    margin: 10px;
     border-radius: 10px;
 
 }
 
-article > h2#clique{
+h2#clique{
     text-decoration: none;
     color: #110847;
     font-size: 3.5vmin;
@@ -135,7 +141,7 @@ article > h2#clique{
     text-align: left;
 }
 
-article > h2#publicar{
+h2#publicar{
     text-decoration: none;
     color: #110847;
     font-size: 3.5vmin;
@@ -143,12 +149,11 @@ article > h2#publicar{
     margin-right: 45px;
 }
 
-article > h2#publicar:hover{
-    text-decoration: none;
-    color: #0F9409;
+#publicar:hover{
+    background-color:#18850a;
     padding: 5px;
     border-radius: 5px;
-    margin-left: 710px;
+    margin-left: 475px;
 }
 
 article > p.comentarios1{
