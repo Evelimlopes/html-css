@@ -1,0 +1,51 @@
+//
+// Base styles
+//
+
+.alert {
+  position: relative;
+  padding: $alert-padding-y $alert-padding-x;
+  margin-bottom: $alert-margin-bottom;
+  border: $alert-border-width solid transparent;
+  @include border-radius($alert-border-radius);
+}
+
+// Cabeçalhos para alertas maiores
+.alert-heading {
+  // Especificado para evitar conflitos de mudança $headings-color
+  color: inherit;
+}
+
+// Fornecer classe para links que correspondam a alertas
+.alert-link {
+  font-weight: $alert-link-font-weight;
+}
+
+
+// Alertas admissíveis
+//
+// Expandir o estofamento correto e explicar o posicionamento do botão de fechamento.
+
+.alert-dismissible {
+  padding-right: $close-font-size + $alert-padding-x * 2;
+
+  // Ajustar a posição de ligação estreita
+  .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    padding: $alert-padding-y $alert-padding-x;
+    color: inherit;
+  }
+}
+
+// Estilos alternativos
+//
+// Gerar classes modificadoras de contexto para colorir o alerta.
+
+@each $color, $value in $theme-colors {
+  .alert-#{$color} {
+    @include alert-variant(theme-color-level($color, $alert-bg-level), theme-color-level($color, $alert-border-level), theme-color-level($color, $alert-color-level));
+  }
+}

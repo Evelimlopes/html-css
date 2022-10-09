@@ -116,44 +116,20 @@ main p{
     text-align: justify;
 }
 
-#comen{
-    margin: 20px;
-    margin-top: 220px;
+.row{
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        background-color: aqua;
+    }
+
+.col{
+    background-color: bisque;
 }
 
 article > .nomes{
     margin-left: 20px;
-}
-article > p#comentario{
-    background-color: #ffffff;
-    padding: 20px;
-    margin: 10px;
-    border-radius: 10px;
-
-}
-
-h2#clique{
-    text-decoration: none;
-    color: #110847;
-    font-size: 3.5vmin;
-    padding: 15px;
-    margin-left: 10px;
-    text-align: left;
-}
-
-h2#publicar{
-    text-decoration: none;
-    color: #110847;
-    font-size: 3.5vmin;
-    text-align: right;
-    margin-right: 45px;
-}
-
-#publicar:hover{
-    background-color:#18850a;
-    padding: 5px;
-    border-radius: 5px;
-    margin-left: 475px;
 }
 
 article > p.comentarios1{

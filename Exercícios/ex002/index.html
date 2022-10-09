@@ -28,14 +28,46 @@
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi incidunt illo delectus, ratione aliquam iste officia dolore similique deserunt quis necessitatibus eum dolor placeat pariatur at libero expedita nihil fugiat? ipsum dolor, sit amet consectetur adipisicing elit. Minus dicta numquam tempore minima non quae sapiente nam maxime similique asperiores cumque, ipsam accusantium suscipit alias ipsa tempora aut voluptate enim? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem error aut quas expedita officiis ex est sunt dolor, deleniti quis quisquam distinctio incidunt provident libero doloremque optio voluptas, dolore voluptatem.</p>
     </main>
 
+    <h2 id="clique">Comentar</h2>
+
+    <div class="row px-xl-5">
+        <div class="col-lg-7 mb-5">
+            <div class="contact-form bg-light p-30">
+                <div id="success"></div>
+                <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                    <div class="control-group">
+                        <input type="text" class="form-control" id="name" placeholder="Your Name"
+                            required="required" data-validation-required-message="Please enter your name" />
+                        <p class="help-block text-danger"></p>
+                    </div>
+                    <div class="control-group">
+                        <input type="email" class="form-control" id="email" placeholder="Your Email"
+                            required="required" data-validation-required-message="Please enter your email" />
+                        <p class="help-block text-danger"></p>
+                    </div>
+                    <div class="control-group">
+                        <input type="text" class="form-control" id="subject" placeholder="Subject"
+                            required="required" data-validation-required-message="Please enter a subject" />
+                        <p class="help-block text-danger"></p>
+                    </div>
+                    <div class="control-group">
+                        <textarea class="form-control" rows="8" id="message" placeholder="Message"
+                            required="required"
+                            data-validation-required-message="Please enter your message"></textarea>
+                        <p class="help-block text-danger"></p>
+                    </div>
+                    <div>
+                        <button class="btn btn-primary py-2 px-4" type="submit" id="sendMessageButton">Send
+                            Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+    <h2 id="clique">Comentarios</h2>
+
     <div id="Pfc1"></div>
     <div id="Pfc2"></div>
-
-    <article id="comen">
-    <h2 id="clique">Comentarios</h2>
-        <p id="comentario">Escreva seu comentario</p>
-        <h2 id="publicar">Publicar</h2>
-    </article>
 
         <article>
         <b class="nomes">Paulo</b>

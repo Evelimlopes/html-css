@@ -1,0 +1,42 @@
+// Responsivas Imagens (garantir que as imagens não ultrapassem a escala de seus pais)
+//
+// Isto é uma opção proposital através de uma classe explícita em vez de ser o padrão para todos. `<img>`s.
+// anteriormente experimentada a abordagem "as imagens são responsivas por padrão" em Bootstrap v2,
+// e a abandonou em Bootstrap v3 porque quebra muitos widgets de terceiros (incluindo Google Maps)
+// que não esperavam que as imagens dentro de si mesmas fossem redimensionadas involuntariamente.
+// Ver também https://github.com/twbs/bootstrap/issues/18178
+.img-fluid {
+  @include img-fluid();
+}
+
+
+// Image thumbnails
+.img-thumbnail {
+  padding: $thumbnail-padding;
+  background-color: $thumbnail-bg;
+  border: $thumbnail-border-width solid $thumbnail-border-color;
+  @include border-radius($thumbnail-border-radius);
+  @include box-shadow($thumbnail-box-shadow);
+
+  // Guarde-os no máximo 100% wide
+  @include img-fluid();
+}
+
+//
+// Figuras
+//
+
+.figure {
+  // Assegura que o texto da legenda se alinhe com a imagem.
+  display: inline-block;
+}
+
+.figure-img {
+  margin-bottom: $spacer / 2;
+  line-height: 1;
+}
+
+.figure-caption {
+  @include font-size($figure-caption-font-size);
+  color: $figure-caption-color;
+}
