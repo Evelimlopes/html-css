@@ -24,9 +24,9 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body style="background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));">
    
-<header id="dados"><h1 id="to">TOUR AM</h1></header>
+
     <!-- Navbar End -->
 
 
@@ -47,33 +47,39 @@
         <h2 class="section-title position-relative text-uppercase mx-xl-5 mb-4"><span class="bg-secondary pr-3">Cadastro</span></h2>
         <div class="row px-xl-5">
             <div class="col-lg-7 mb-5">
-                <div class="contact-form bg-light p-30">
+                <div class="contact-form bg-light p-30" style="border-radius: 18px;">
                     <div id="success"></div>
                     
                     <form name="sentMessage" action="contact.php" method="POST" id="contactForm">
-                        <div class="control-group">
-                            <input type="text" class="form-control" id="name" placeholder="Seu nome"
-                                required="required" data-validation-required-message="Por favor, digite seu nome" />
-                            <p class="help-block text-danger"></p>
-                        </div>
+
                         <div class="control-group">
                             <input type="email" class="form-control" id="email" placeholder="Seu email"
                                 required="required" data-validation-required-message="Por favor, digite seu e-mail" />
                             <p class="help-block text-danger"></p>
                         </div>
+
                         <div class="control-group">
                             <input type="text" class="form-control" id="user" placeholder="Seu usuário"
                                 required="required" data-validation-required-message="Por favor, digite um usuário" />
                             <p class="help-block text-danger"></p>
                         </div>
+
                         <div class="control-group">
                             <input type="text" class="form-control" id="password" placeholder="Sua senha"
                                 required="required"
                                 data-validation-required-message="Por favor, digite sua senha"></input>
                             <p class="help-block text-danger"></p>
                         </div>
+                        
                         <div>
-                            <button class="btn btn-primary py-2 px-4" type="submit" id="sendMessageButton">Cadastrar</button>
+                            <button class="btn btn-primary py-2 px-4" type="submit" id="sendMessageButton" style="background-image: linear-gradient(to right,rgb(0, 92, 197), rgb(90, 20, 220));
+                            width: 100%;
+                            border: none;
+                            padding: 10px;
+                            color: white;
+                            font-size: 15px;
+                            cursor: pointer;
+                            border-radius: 10px;">Cadastrar</button>
                         </div>
                     </form>
                 </div>
@@ -82,38 +88,7 @@
     </div>
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-secondary mt-5 pt-5">
-        <div class="row px-xl-5 pt-5">
-            <div class="col-lg-4 col-md-12 mb-5 pr-3 pr-xl-5">
-                <h5 class="text-secondary text-uppercase mb-4">Entre em contato</h5>
-                <p class="mb-4">No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita et et dolor sed dolor. Rebum tempor no vero est magna amet no</p>
-            </div>
-            <div class="col-lg-8 col-md-12">
-                <div class="row">
-                   
-                    </div>
-                    <div class="col-md-4 mb-5">
-                        <h5 class="text-secondary text-uppercase mb-4">NOTÍCIAS POR E-MAIL</h5>
-                        <p>Duo stet tempor ipsum sit amet magna ipsum tempor est</p>
-                        <form action="">
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Seu endereço de email">
-                                <div class="input-group-append">
-                                    <button class="btn btn-primary">Enviar</button>
-                                </div>
-                            </div>
-                        </form>
-                        <h6 class="text-secondary text-uppercase mt-4 mb-3">SIGA-NOS</h6>
-                        <div class="d-flex">
-                            <a class="btn btn-primary btn-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-primary btn-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-primary btn-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn btn-primary btn-square" href="#"><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    
     <!-- Footer End -->
 
 
