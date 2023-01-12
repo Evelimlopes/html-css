@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar">
+        <h1 class="logo">AVENTURA-SE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">About</a></li>
+            <li class="ctn"><a href="#">Contacto</a></li>
+        </ul>
+        <img src="./img/menu-btn-removebg-preview.png" alt="" class="menu-btn">
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <h2>Explore o mundo de cores</h2>
+            <h1>Brasil'z</h1>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+
+    <!--Eventos-->
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img/Natureza_-_Praia_de_Icaraí_-_Niterói_-_Brasil.png" alt="">
+                <h4>Camp Trek</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi esse distinctio illum mini</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./img/campp.png" alt="">
+                <h4>Holiday</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi esse distinctio illum ?</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <select class="explore">
+        <div class="explore-content">
+        <h1>EXPLORE O MUNDO</h1>
+        <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci eaque voluptatem accusamus, teneturmilique rerum. Magnam mollitia nihil commodi libero nesciunt eveniet?
+        </P>
+        <a href="#" class="ctn">Learn More</a>
+       </div>
+    </select>
+    
+</body>
+</html>
