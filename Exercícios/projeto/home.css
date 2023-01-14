@@ -12,7 +12,6 @@ body , html{
 
 a{
     text-decoration: none;
-    color: whitesmoke;
 }
 
 ul{
@@ -98,6 +97,10 @@ header{
 
 /*Responsividade para Mobile*/
 @media screen and (max-width: 850px){
+    .header{
+        max-width: 100%;
+    }
+
     .menu-btn{
         display: block;
     }
@@ -286,7 +289,7 @@ p{
 .content-col .ctn{
     margin-left: -100px;
 }
-/*Animaçõe de imagens*/
+/*Animaçõe*/
 img{
     transition: transform .3s ease;
 }
@@ -295,6 +298,13 @@ img:hover{
     transform: scale(1.1);
 }
 
+.ctn:hover{
+    background: whitesmoke;
+    color: #fc036b;
+    box-shadow: 2px 2px 5px black;
+}
+
+/*footer*/
 .footer{
     width: 100%;
     min-height: 200px;
